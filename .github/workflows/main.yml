@@ -94,3 +94,5 @@ jobs:
           COVERITY_SCAN_TOKEN: ${{ secrets.COVERITY_SCAN_TOKEN }}
           COVERITY_SCAN_EMAIL: ${{ secrets.COVERITY_SCAN_EMAIL }}
           COVERITY_BUILD_COMMAND: xcodebuild -target Package -configuration Release
+
+# Trigger the existing CI on the isolated wireless build branch.
